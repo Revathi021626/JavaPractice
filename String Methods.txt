@@ -1,0 +1,153 @@
+String Methods
+==============
+s1.compareTo(s2)    //if both are equal then it returns true
+
+s1.compareToIgnoreCase(s2)   //if both strings are equal but not according to case sensitive
+
+s1.concat(s2)    //concates both the strings
+
+s1.contains(s2)    //to check the character sequence in the string
+
+s1.contentEquals(s2)  //entire content checking
+
+s1.copyValue(s2, 0, 3)   //copies only particular part of string between the mentioned indexes
+
+s1.endsWith("..")  //return true or false if the string ends with the mentioned string
+
+s1.equals(s2) //return true if both are equal
+
+s1.equalsIgnoreCase(s2)   //if both strings are equal but not according to case sensitive
+
+s1.indexOf("...") //returns the index of the motioned string in the s1 string
+
+s1.isEmpty()  //true --->string is empty    false--> not empty
+
+s1.join("," "a", "b" , "c")  //it joins abc as a,b,c
+
+s1.lastIndexOf("...")   //returns the last index of that particular string
+
+s1.replace(a, b)  //replaces all the a's in the string with b
+
+s1.replaceAll(s2,"at")  //replaces all the s2 values in s1 vd "at"
+
+s1.replaceFirst(s2,"all")    //replaces all the s2 values in s1 vd "all"
+
+s1.startsWith("...")   //return true if s1 string starts with the mentioned value
+
+s1.tocharArray() //converts string to character array
+
+s1.toUpperCase()  //returns the string with all upper case letters
+
+s1.toLowerCase()  // returns all the characters in string to lower case letters
+
+s1.trime()    //returns the string with no white spaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Convert the string to a char array
+char[] myArray = myStr.toCharArray();
+
+//Count words in string
+String words = "One Two Three Four";
+int countWords = words.split("\\s").length;
+
+//Sort an array
+Arrays.sort(arr);
+
+// Print values
+for (String i : capitalCities.values()) {
+  System.out.println(i);
+}
+
+// Print keys
+for (String i : capitalCities.keySet()) {
+  System.out.println(i);
+}
+
+
+//Random Num
+Math.random();
+
+//Square Root
+Math.sqrt();
